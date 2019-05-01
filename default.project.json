@@ -1,0 +1,12 @@
+{
+  "name": "plugin",
+  "tree": {
+    "$className": "DataModel",
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "RoLog": {
+        "$path": "plugin"
+      }
+    }
+  }
+}

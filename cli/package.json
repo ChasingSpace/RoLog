@@ -1,0 +1,19 @@
+{
+  "name": "rolog-cli",
+  "version": "1.0.1",
+  "description": "",
+  "bin": {
+    "rolog": "cli.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [],
+  "author": "ChasingSpace",
+  "license": "MIT",
+  "repository": "https://github.com/ChasingSpace/RoLog",
+  "dependencies": {
+    "ansi-markup": "^1.0.2",
+    "express": "^4.16.4"
+  }
+}
