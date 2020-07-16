@@ -1,39 +1,37 @@
 <div align="center">
 
   # RoLog
-  [![NPM](https://img.shields.io/npm/dt/rolog-cli.svg?style=flat-square)](https://www.npmjs.com/package/rolog-cli)
-
   Mirror your output messages from Roblox Studio to your Terminal
 
 </div>
 
-## Prerequisites
+## Alternative Tools
+This was quickly whipped up because I had a hot idea. I'll likely never update this again, so I highly recommend using [this VSCode extension](https://marketplace.visualstudio.com/items?itemName=Corecii.roblox-output-sync) by Corecii.
 
-NPM is needed for this. You can install it by downloading NodeJS which is packaged with it. https://nodejs.org/
+## Requirements
+
+- [NodeJS](https://nodejs.org/)
+- [Roblox Studio](https://www.roblox.com/create)
 
 ## Installation
 
-Install the CLI for RoLog through NPM.
+Setup the GitHub Registry with NPM by following this guide: [Link](https://docs.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages)
+
+Once completed, run:
 
 ```sh
-npm install -g rolog-cli
+npm install -g @ayuka/rolog
 ```
 
-Install the Roblox Studio plugin.
-
-https://www.roblox.com/library/3134344866/RoLog
+And finally, install the Roblox Studio plugin: [Link](https://www.roblox.com/library/3134344866/RoLog)
 
 ## Usage
 
-First, you'll need to start the server. Run `rolog` to do this.
+Run `rolog` in your Terminal to start the server. To stop it, either close it or terminate it by pressing `CTRL+C`
 
-You can stop the server, by either closing the Terminal or pressing Ctrl+C.
+To connect Roblox Studio to your Terminal, in the `Plugins` tab, click `RoLog` to toggle it on. Click again to turn it off *(this does not stop the server)*, or you can stop the server and wait for the plugin to reach an error and stop itself.
 
-Then, in Roblox Studio, open a place and on the "Plugins" tab, click "RoLog"
-
-Now, any output messages will now be mirrored to the Terminal running `rolog`
-
-## Styling
+## Style Guide
 
 This uses [ansi-markup](https://github.com/tcowley/ansi-markup) for styling output messages. You can view all the options for it [here](https://github.com/tcowley/ansi-markup#markup).
 
